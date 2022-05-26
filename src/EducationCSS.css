@@ -1,0 +1,51 @@
+.education{
+    background-color: #4e54c8;
+    color: white;
+    text-align: left;
+    padding: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.education h1{
+    text-align: center;
+    padding-bottom:1rem;
+}
+.education hr{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+
+.education-tab-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.education-tab-div div{
+    padding: 1rem;
+}
+.education-course{
+    width : 25%;
+}
+.education-details{
+    width : 50%;
+}
+@media screen and (max-width: 500px) {
+    .education{
+        padding: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .education-tab-div div{
+        width: 90%;
+        padding: 0.2rem;
+    }
+    .education-tab-div{
+        display: block;
+        padding: 1rem;
+    }
+    .education span{
+        display: none;
+    }
+}

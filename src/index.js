@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import FrontPage from './FrontPage';
+import AboutMePage from './AboutMePage'
+import Contact from './Contact'
+import Education from './Education'
+import Projects from './Projects'
+import Abilities from './Abilities'
+import NavigationBar from './NavigationBar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <FrontPage/>
+    <NavigationBar/>
+    <AboutMePage/>
+    <Education/>
+    <Abilities/>
+    <Projects/>
+    <Contact/>
+  </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

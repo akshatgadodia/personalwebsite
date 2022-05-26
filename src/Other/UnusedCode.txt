@@ -1,0 +1,31 @@
+Replace code for Education.js
+<div className='education-tab-div'>
+        <div className='education-details'>
+              <b>Swami keshvanad Institue of Technology</b><br />
+              August 2019 - June 2023 (Expected)
+        </div>
+        <div className='education-course'>
+              Course - Bachelor of Technology <br />
+              <span> CGPA 9.11 (Till IV Sem)</span>
+        </div>
+      </div>
+      <div className='education-tab-div'>
+        <div className='education-details'>
+              <b>Subodh Public School </b><br />
+              April 2018 - May 2019 
+        </div>
+        <div className='education-course'>
+              Course - Senior Secondary School Certificate <br />
+              <span> 78 %</span>
+        </div>
+      </div>
+      <div className='education-tab-div'>
+        <div className='education-details'>
+              <b>Shri Hari Ram Saboo Public School</b><br />
+              April 2016 - May 2017
+        </div>
+        <div className='education-course'>
+              Course - Secondary School Certificate <br />
+              <span> 9.6 CGPA</span>
+        </div>
+      </div>
