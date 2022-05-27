@@ -177,12 +177,13 @@ a:active{
     .navigation-bar-button{
         display: block;
         text-align: center;
-        height : 5rem;
+        height : 3rem;
+        position: absolute;
+        bottom: 0;
     }
     .navigation-bar-button-link{
         color: white;
-        text-align: center;
         position: relative;
-        top:2.5vh;
+        top : 1vh;
     }
 }
