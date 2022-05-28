@@ -12,6 +12,7 @@
 .abilities h4{
     text-align: left;
     padding-bottom:1rem;
+    padding-left: 1rem;
 }
 .abilities hr{
     margin-top:2.5rem;
@@ -32,10 +33,12 @@
 }
 
 .display-ability-name{
+    padding-left: 1rem;
     float: left;
 }
 .display-ability-rating{
     float: right;
+    padding-left: 2rem;
 }
 @media screen and (max-width: 500px) {
     .abilities{

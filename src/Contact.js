@@ -35,10 +35,10 @@ const Contact = () => {
           </form>
         </div>
         <div className='contact-information'>
-          <a href="mailto:akshatgadodia@gmail.com"><LinkedInIcon fontSize="large" style={{color:"white"}}/> </a>
-          <a href="mailto:akshatgadodia@gmail.com"><GitHubIcon fontSize="large" style={{color:"white"}}/> </a>
-          <a href="mailto:akshatgadodia@gmail.com"><InstagramIcon fontSize="large" style={{color:"white"}}/> </a>
-          <a href="mailto:akshatgadodia@gmail.com"><FacebookIcon fontSize="large" style={{color:"white"}}/></a>
+          <a href="https://www.linkedin.com/in/akshat-gadodia" target="_blank" rel='noopener noreferrer'><LinkedInIcon fontSize="large" style={{color:"white"}}/> </a>
+          <a href="https://www.github.com/akshatgadodia/" target="_blank" rel='noopener noreferrer'><GitHubIcon fontSize="large" style={{color:"white"}}/> </a>
+          <a href="https://www.instagram.com/akshat_gadodia/" target="_blank" rel='noopener noreferrer'><InstagramIcon fontSize="large" style={{color:"white"}}/> </a>
+          <a href="https://www.facebook.com/akshat.gadodia" target="_blank" rel='noopener noreferrer'><FacebookIcon fontSize="large" style={{color:"white"}}/></a>
           <a href="mailto:akshatgadodia@gmail.com"><AlternateEmailIcon fontSize="large" style={{color:"white"}}/> </a><br />
           <br /><br />
           Email :

@@ -10,10 +10,10 @@ const Abilities = () => {
     var list=[];
     var i;
     for(i=0; i<a; i++) {
-      list.push(<StarIcon fontSize="small"/>);
+      list.push(<StarIcon key={i}fontSize="small"/>);
     }
     for(i=0; i<5-a; i++) {
-      list.push(<StarOutlineIcon fontSize="small"/>);
+      list.push(<StarOutlineIcon key={a+i} fontSize="small"/>);
     }  
     return list ;
   }
